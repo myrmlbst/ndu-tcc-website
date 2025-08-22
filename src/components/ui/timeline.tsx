@@ -1,6 +1,7 @@
 "use client";;
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
+import {TextGenerateEffect} from "./text-generate-effect";
 
 export const Timeline = ({
                            data
@@ -24,19 +25,25 @@ export const Timeline = ({
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
+  const title = `Major TCC Milestones`;
+
+  const subtitle = `Here's what we've been up to from our foundation til today...`;
+
   return (
     <div
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-5xl md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          Major TCC Milestones
+
+        <h2 className="text-5xl md:text-4xl lg:text-6xl mb-4 text-black font-bold dark:text-white max-w-4xl">
+          <TextGenerateEffect words={title}/>
         </h2>
         <p
           className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          Here&apos;s what we&apos;ve been up to from our foundation til today...
+          <TextGenerateEffect words={subtitle}/>
         </p>
       </div>
+
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
           <div key={index} className="flex justify-start pt-10 md:pt-40 md:gap-10">
