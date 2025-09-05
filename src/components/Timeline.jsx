@@ -1,5 +1,5 @@
 import React from "react";
-import { Timeline as TimelineBase } from "/src/components/ui/timeline";
+import { Timeline as TimelineBase } from "./ui/timeline";
 
 const timelineData = [
     {
@@ -264,7 +264,7 @@ const timelineData = [
 
 export function Timeline() {
   return (
-    <div className="relative w-full overflow-clip">
+    <div id="timeline" className="relative w-full overflow-clip scroll-mt-24">
       <TimelineBase data={timelineData} />
     </div>
   );
