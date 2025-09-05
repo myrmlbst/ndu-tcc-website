@@ -24,6 +24,9 @@
 .dark-grey-background {
     background-color: var(--color-dark-grey);
 }
+.black-background {
+    background-color: var(--color-black);
+}
 
 .grey-hover:hover {
     color: var(--color-grey);

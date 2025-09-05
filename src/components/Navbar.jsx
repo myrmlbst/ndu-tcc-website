@@ -14,8 +14,8 @@ import { useState } from "react";
 export function NavbarDemo() {
   const navItems = [
     {
-      name: "Values",
-      link: "#features",
+      name: "About Us",
+      link: "#aboutus",
     },
     {
       name: "Milestones",
@@ -32,7 +32,7 @@ export function NavbarDemo() {
   return (
     <div className="relative w-full">
       <Navbar>
-      
+
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />
