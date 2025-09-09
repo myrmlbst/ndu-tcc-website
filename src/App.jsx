@@ -1,6 +1,8 @@
 import './App.css'
 import { Timeline } from "./components/Timeline";
 import { NavbarDemo } from "./components/Navbar.jsx";
+import { Footer } from "./components/Footer.jsx";
+import {Hero} from "./components/Hero.jsx";
 
 function App() {
 
@@ -8,7 +10,9 @@ function App() {
     <div>
       <NavbarDemo />
       <div className="pt-24">
+        <Hero />
         <Timeline />
+        <Footer />
       </div>
     </div>
   )
