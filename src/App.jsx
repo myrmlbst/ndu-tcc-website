@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
       <NavbarDemo />
-      <div className="pt-24">
+      
+      <div>
         <Hero />
         <Timeline />
         <Footer />
