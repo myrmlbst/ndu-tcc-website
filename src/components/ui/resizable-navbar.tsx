@@ -1,4 +1,4 @@
-"use client";;
+"use client";
 import { cn } from "../../lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import {
@@ -7,15 +7,27 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "motion/react";
-
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, ReactNode, isValidElement, cloneElement } from "react";
 import logo from "../../assets/images/logo.jpeg";
 
+// Define prop types for components that can receive the 'visible' prop
+interface NavbarChildProps {
+  visible?: boolean;
+  className?: string;
+  children?: ReactNode;
+  // Add other common props that your child components might accept
+  [key: string]: any; // For any additional props
+}
 
-export const Navbar = ({
-                         children,
-                         className
-                       }) => {
+interface NavbarProps {
+  children: ReactNode;
+  className?: string;
+}
+
+export const Navbar: React.FC<NavbarProps> = ({
+  children,
+  className
+}) => {
   const ref = useRef(null);
   const { scrollY } = useScroll({
     target: ref,
@@ -36,18 +48,24 @@ export const Navbar = ({
       ref={ref}
       // IMPORTANT: Change this to class of `fixed` if you want the navbar to be fixed
       className={cn("fixed inset-x-0 top-0 z-50 w-full", className)}>
-      {React.Children.map(children, (child) =>
-        React.isValidElement(child)
-          ? React.cloneElement(child, { visible })
-          : child)}
+      {React.Children.map(children, (child) => {
+        if (isValidElement<NavbarChildProps>(child)) {
+          return cloneElement(child, { visible });
+        }
+        return child;
+      })}
     </motion.div>
   );
 };
 
-export const NavBody = ({
-                          children,
-                          className,
-                          visible
+interface NavBodyProps extends NavbarChildProps {
+  // Add any additional props specific to NavBody
+}
+
+export const NavBody: React.FC<NavBodyProps> = ({
+  children,
+  className,
+  visible
                         }) => {
   return (
     <motion.div
@@ -110,10 +128,14 @@ export const NavItems = ({
   );
 };
 
-export const MobileNav = ({
-                            children,
-                            className,
-                            visible
+interface MobileNavProps extends NavbarChildProps {
+  // Add any additional props specific to MobileNav
+}
+
+export const MobileNav: React.FC<MobileNavProps> = ({
+  children,
+  className,
+  visible
                           }) => {
   return (
     <motion.div
@@ -205,14 +227,19 @@ export const NavbarLogo = () => {
   );
 };
 
-export const NavbarButton = ({
-                               href,
-                               as: Tag = "a",
-                               children,
-                               className,
-                               variant = "primary",
-                               ...props
-                             }) => {
+export interface NavbarButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+  as?: React.ElementType;
+  variant?: 'primary' | 'secondary' | 'dark' | 'gradient';
+}
+
+const NavbarButton: React.FC<NavbarButtonProps> = ({
+  as: Tag = 'a',
+  href,
+  children,
+  className,
+  variant = 'primary',
+  ...props
+}) => {
   const baseStyles =
     "px-4 py-2 rounded-md bg-white button bg-white text-black text-sm font-bold relative cursor-pointer hover:-translate-y-0.5 transition duration-200 inline-block text-center";
 
