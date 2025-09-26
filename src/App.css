@@ -1,24 +1,10 @@
 @import "tailwindcss";
 
 :root {
-    --color-pink: #ed0c73;
     --color-black: #141414;
     --color-dark-grey: #1a1b1f;
     --color-grey: #808080;
     --color-white: #ededed;
-}
-
-.pink-hover:hover {
-    color: var(--color-pink);
-}
-.pink-border {
-    border-color: var(--color-pink);
-}
-.pink-text {
-    color: var(--color-pink);
-}
-.pink-background {
-    background-color: var(--color-pink);
 }
 
 .dark-grey-background {
