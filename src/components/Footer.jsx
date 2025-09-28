@@ -43,7 +43,7 @@ export function Footer() {
                   <FaGithub className="h-5 w-5"/>
                 </a>
                 <a
-                  href="#"
+                  href="https://linktr.ee/nduthecomputerclub"
                   className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-50 text-gray-600 transition-all hover:bg-gray-100 hover:text-gray-800 dark:bg-neutral-800 dark:text-gray-300 dark:hover:bg-neutral-700 dark:hover:text-white border border-gray-200 dark:border-neutral-700"
                   aria-label="Whatsapp"
                 >
