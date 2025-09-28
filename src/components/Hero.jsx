@@ -3,12 +3,10 @@ import React, { useRef } from 'react';
 import { motion, useMotionValue, useSpring } from "motion/react";
 
 /*
-
 NOTE TO SELF: THIS SHOULD PROBABLY BE UPDATED LATER INTO AURORA BACKGROUND (instead of the reactive blobs)
 experiment and look into this later + make sure to show demos of both to Bruno so that he can see the difference and
 give his opinion on it too
 MAKE SURE U DELETE THE UNNEEDED CSS STYLIZATIONS LATER ONCE THE FINAL DECISION IS MADE
-
 */
 
 export function Hero() {
@@ -31,7 +29,7 @@ export function Hero() {
           <div className="mx-auto max-w-3xl text-center">
             
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl dark:text-white">
-              NDU — The Computer Science Club
+              NDU — The Computer Club
             </h1>
             <p className="mt-4 text-base text-gray-600 md:text-lg dark:text-gray-300">
               Creating the things you wished existed...
