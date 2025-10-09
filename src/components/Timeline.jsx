@@ -8,7 +8,7 @@ const timelineData = [
         <div>
           <p
             className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            NDU TCC was born out of our founders' need for a tech community at NDU. We found a missing XXX, so we created it ourselves.
+            NDU TCC was born out of our founders' need for a tech community at NDU. We knew NDU had untapped talent that needed a community to help hone and polish it, so we created it ourselves.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -46,13 +46,17 @@ const timelineData = [
         <div>
           <p
             className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
+            We have had the honor of having two guest speakers from NVIDIA, Dr. Mark Wolf and Esperanza Cuenca-Gomez, for a webinar on quantum computing. 
           </p>
           <p
             className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+            Dr. Wolf and Gomez shared their experience at NVIDIA and their journey to quantum computing, in addition to an introductory webinar on the fundamentals of quantum computing with NVIDIA's CUDA-Q.
+            You can find the material and resources they shared{' '}
+            <a 
+              className="underline font-semibold" 
+              href="https://github.com/nduthecomputerclub/nvidia-webinar-resources">
+                here
+            </a>.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -89,28 +93,24 @@ const timelineData = [
       <div>
         <p
           className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Deployed 5 new components on Aceternity today
+          We've also hosted a webinar with Mandy Bitar, Engineering Manager at Amazon Web Services, who shared her experience at Big Tech. She discussed:
         </p>
         <div className="mb-8">
-          <div
+        <div
             className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Card grid component
+            ✅ Preparing and equipping yourself with the necessary skills at the undergraduate level
           </div>
           <div
             className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Startup template Aceternity
+            ✅ Making it to Big Tech as an engineer
           </div>
           <div
             className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Random file upload lol
+            ✅ Working your way up to management and leadership roles
           </div>
           <div
             className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Himesh Reshammiya Music CD
-          </div>
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Salman Bhai Fan Club registrations open
+            ✅ Overcoming challenges and hardships from her own personal experience in the field
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4">
@@ -148,28 +148,20 @@ const timelineData = [
       <div>
         <p
           className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Deployed 5 new components on Aceternity today
+          NDU also participated in a nation-wide cybersecurity competiton (CTF), where our students competed and made it to the very top ranks in Lebanon
         </p>
         <div className="mb-8">
           <div
             className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Card grid component
+            ✅ Ethical hacking and penetration testing workshops
           </div>
           <div
             className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Startup template Aceternity
+            ✅ 2 NDU teams qualifying to and competing at the national level
           </div>
           <div
             className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Random file upload lol
-          </div>
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Himesh Reshammiya Music CD
-          </div>
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Salman Bhai Fan Club registrations open
+            ✅ Reached top 4 in Lebanon out of 30+ competing universities and 1200+ students
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4">
@@ -205,32 +197,12 @@ const timelineData = [
     title: "2026...",
     content: (
       <div>
-        <p
-          className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Deployed 5 new components on Aceternity today
+        <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          What will this upcoming year bring us?
         </p>
-        <div className="mb-8">
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Card grid component
-          </div>
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Startup template Aceternity
-          </div>
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Random file upload lol
-          </div>
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Himesh Reshammiya Music CD
-          </div>
-          <div
-            className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-            ✅ Salman Bhai Fan Club registrations open
-          </div>
-        </div>
+        <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          Stay tuned for more events, workshops, hackathons, and webinars that our team tailors specifically for you!
+        </p>
         <div className="grid grid-cols-2 gap-4">
           <img
             src="https://assets.aceternity.com/pro/hero-sections.png"
