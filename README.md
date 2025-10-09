@@ -1,3 +1,9 @@
+# NDU/TCC: Creating the Things You Wished Existed...
+
+Source code for NDU/TCC's landing page (Developed by the Executive Committee 2025-2026). The website is developed using (Aceternity UI)[https://ui.aceternity.com/].
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
