@@ -1,6 +1,6 @@
 # NDU/TCC: Creating the Things You Wished Existed...
 
-Source code for NDU/TCC's landing page (Developed by the Executive Committee 2025-2026). The website is developed using (Aceternity UI)[https://ui.aceternity.com/].
+Source code for NDU/TCC's landing page (Developed by the Executive Committee 2025-2026). The website is developed using [Aceternity UI](https://ui.aceternity.com/).
 
 ---
 
