@@ -16,6 +16,15 @@ export function AboutUs() {
         </p>
 
       </div>
+
+      <div className="flex justify-center px-6 mt-8">
+        <p className="text-white text-center text-lg max-w-2xl border-2 border-white/20 p-6 rounded-lg">
+          NDU/TCC is a student-run organization that aims to provide a platform for students to learn about technology and its applications in real life. We believe that technology should be accessible to everyone and that it should be used to make a positive impact on society.
+        </p>
+        <p className="text-white text-center text-lg max-w-2xl border-2 border-white/20 p-6 rounded-lg">
+        Over the years, we have been able to provide a platform for students to learn about technology and its applications in real life through workshops, webinars, hackathons, and events that we host.
+        </p>
+      </div>
     </div>
   );
 }
