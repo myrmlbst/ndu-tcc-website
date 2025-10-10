@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa6';
 
 export function Footer() {
   return (
-    <footer className="relative w-full bg-white dark:bg-neutral-950">
+    <footer id="contact" className="relative w-full bg-white dark:bg-neutral-950">
       <div className="relative mx-auto max-w-7xl px-4 py-16">
         <div className="rounded-3xl p-8 border border-gray-200 bg-white shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05)] dark:border-neutral-800 dark:bg-neutral-900">
           
