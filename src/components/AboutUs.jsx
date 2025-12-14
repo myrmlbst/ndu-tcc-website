@@ -36,7 +36,10 @@ export function AboutUs() {
         <div className="space-y-16">
           {/* Mission & Vision */}
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="rounded-3xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5">
+            <div 
+              className="rounded-3xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10"
+              style={{ willChange: 'transform' }}
+            >
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Mission</h2>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 To provide a dynamic platform for students to explore, learn, and excel in technology. 
@@ -44,7 +47,10 @@ export function AboutUs() {
                 innovation thrives through hands-on experiences and collaborative learning.
               </p>
             </div>
-            <div className="rounded-3xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5">
+            <div 
+              className="rounded-3xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10"
+              style={{ willChange: 'transform' }}
+            >
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Vision</h2>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 To be the leading student tech community that bridges the gap between academic learning 
@@ -57,8 +63,8 @@ export function AboutUs() {
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {stats.map((stat, index) => (
-              <div key={index} className="rounded-2xl p-6 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 text-center hover:shadow-lg transition-shadow duration-300">
-                <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">{stat.value}</div>
+              <div className="group rounded-2xl p-6 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10" style={{ willChange: 'transform' }}>
+                <div className="text-4xl font-bold text-blue-500 dark:text-blue-300 mb-2">{stat.value}</div>
                 <div className="text-gray-700 dark:text-gray-300">{stat.label}</div>
               </div>
             ))}
@@ -78,7 +84,10 @@ export function AboutUs() {
                 collaborate on innovative projects that make a difference.
               </p>
             </div>
-            <div className="rounded-2xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5">
+            <div 
+              className="rounded-2xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10" 
+              style={{ willChange: 'transform' }}
+            >
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">What We Do</h3>
               <ul className="space-y-3">
                 {[
@@ -88,9 +97,9 @@ export function AboutUs() {
                   "Work on real-world projects",
                   "Connect students with industry professionals"
                 ].map((item, index) => (
-                  <li key={index} className="flex items-start">
-                    <span className="text-blue-500 dark:text-blue-400 mr-3 mt-1">•</span>
-                    <span className="text-gray-700 dark:text-gray-300">{item}</span>
+                  <li key={index} className="flex items-start group transition-all duration-200 hover:pl-2">
+                    <span className="text-blue-400 dark:text-blue-300 mr-3 mt-1 group-hover:scale-125 transition-transform duration-200">•</span>
+                    <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200 group-hover:text-blue-500 dark:group-hover:text-blue-300">{item}</span>
                   </li>
                 ))}
               </ul>
