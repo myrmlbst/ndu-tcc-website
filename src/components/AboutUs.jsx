@@ -37,7 +37,7 @@ export function AboutUs() {
           {/* Mission & Vision */}
           <div className="grid md:grid-cols-2 gap-8">
             <div 
-              className="rounded-3xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10"
+              className="rounded-3xl p-8 border-2 border-transparent bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-200/40 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10"
               style={{ willChange: 'transform' }}
             >
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Mission</h2>
@@ -48,7 +48,7 @@ export function AboutUs() {
               </p>
             </div>
             <div 
-              className="rounded-3xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10"
+              className="rounded-3xl p-8 border-2 border-transparent bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-200/40 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10"
               style={{ willChange: 'transform' }}
             >
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Vision</h2>
@@ -63,7 +63,7 @@ export function AboutUs() {
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {stats.map((stat, index) => (
-              <div className="group rounded-2xl p-6 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10" style={{ willChange: 'transform' }}>
+              <div className="group rounded-2xl p-6 border-2 border-transparent bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:bg-white/5 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-200/40 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10" style={{ willChange: 'transform' }}>
                 <div className="text-4xl font-bold text-blue-500 dark:text-blue-300 mb-2">{stat.value}</div>
                 <div className="text-gray-700 dark:text-gray-300">{stat.label}</div>
               </div>
@@ -85,7 +85,7 @@ export function AboutUs() {
               </p>
             </div>
             <div 
-              className="rounded-2xl p-8 border border-gray-300/70 bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:border-white/15 dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-2 hover:border-blue-200/40 dark:hover:border-2 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10" 
+              className="rounded-2xl p-8 border-2 border-transparent bg-white/60 backdrop-blur-md shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:bg-white/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-200/40 dark:hover:border-blue-400/20 hover:bg-white/80 dark:hover:bg-white/10" 
               style={{ willChange: 'transform' }}
             >
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">What We Do</h3>
