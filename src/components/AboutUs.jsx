@@ -89,7 +89,7 @@ export function AboutUs() {
               style={{ willChange: 'transform' }}
             >
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">What We Do</h3>
-              <ul className="space-y-3">
+              <ul className="space-y-3 pl-1">
                 {[
                   "Organize workshops and hackathons",
                   "Host tech talks and networking events",
@@ -97,9 +97,9 @@ export function AboutUs() {
                   "Work on real-world projects",
                   "Connect students with industry professionals"
                 ].map((item, index) => (
-                  <li key={index} className="flex items-start group transition-all duration-200 hover:pl-2">
-                    <span className="text-blue-400 dark:text-blue-300 mr-3 mt-1 group-hover:scale-125 transition-transform duration-200">•</span>
-                    <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200 group-hover:text-blue-500 dark:group-hover:text-blue-300">{item}</span>
+                  <li key={index} className="flex items-baseline group transition-all duration-200 hover:pl-1">
+                    <span className="text-blue-400 dark:text-blue-300 mr-3 flex-shrink-0 group-hover:scale-125 transition-transform duration-200">•</span>
+                    <span className="text-gray-700 dark:text-gray-300 transition-all duration-200 group-hover:text-blue-500 dark:group-hover:text-blue-300 group-hover:italic">{item}</span>
                   </li>
                 ))}
               </ul>
