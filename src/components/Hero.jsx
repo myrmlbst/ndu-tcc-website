@@ -2,12 +2,6 @@ import React, { useRef } from 'react';
 // import { cn } from '../lib/utils';
 import { motion, useMotionValue, useSpring } from "motion/react";
 
-/*
-NOTE TO SELF: THIS SHOULD PROBABLY BE UPDATED LATER INTO AURORA BACKGROUND (instead of the reactive blobs)
-experiment and look into this later + make sure to show demos of both to Bruno so that he can see the difference and
-give his opinion on it too
-MAKE SURE U DELETE THE UNNEEDED CSS STYLIZATIONS LATER ONCE THE FINAL DECISION IS MADE
-*/
 
 export function Hero() {
   return (

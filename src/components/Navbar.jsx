@@ -62,9 +62,8 @@ export function NavbarDemo() {
             ))}
           </MobileNavMenu>
         </MobileNav>
+        
       </Navbar>
-
-      {/* Navbar */}
     </div>
   );
 }
