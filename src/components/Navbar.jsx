@@ -21,12 +21,10 @@ export function NavbarDemo() {
       name: "Milestones",
       link: "#timeline",
     },
-    /*
     {
       name: "Contact",
-      link: "#contact",
+      link: "#",
     },
-    */
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -62,7 +60,7 @@ export function NavbarDemo() {
             ))}
           </MobileNavMenu>
         </MobileNav>
-        
+
       </Navbar>
     </div>
   );
