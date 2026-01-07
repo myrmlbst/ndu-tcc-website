@@ -210,8 +210,8 @@ const timelineData = [
 
 export function Timeline() {
   return (
-    <div id="timeline" className="relative w-full overflow-clip scroll-mt-24">
+    <section id="timeline" className="relative w-full overflow-hidden dark:text-white">
       <TimelineBase data={timelineData} />
-    </div>
+    </section>
   );
 }

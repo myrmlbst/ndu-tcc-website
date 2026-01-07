@@ -35,11 +35,10 @@ export const Timeline = ({
       ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
 
-        <h2 className="text-5xl md:text-4xl lg:text-6xl mb-4 text-black font-bold dark:text-white max-w-4xl">
+        <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl dark:text-white mb-6">
           <TextGenerateEffect words={title} className="" />
-        </h2>
-        <p
-          className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+        </h1>
+        <p className="text-lg text-gray-600 md:text-xl dark:text-gray-300">
           <TextGenerateEffect words={subtitle} className="" />
         </p>
       </div>

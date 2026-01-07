@@ -18,12 +18,12 @@ export function Contact() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 py-20 w-full">
-        <div className="text-left mb-10 max-w-4xl">
-          <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl dark:text-white mb-6">
-            <TextGenerateEffect words={title} />
-          </h2>
+        <div className="text-left mb-20 max-w-4xl">
+          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl dark:text-white mb-6">
+            <TextGenerateEffect words={title} className="" />
+          </h1>
           <p className="text-lg text-gray-600 md:text-xl dark:text-gray-300">
-            <TextGenerateEffect words={subtitle} />
+            <TextGenerateEffect words={subtitle} className="" />
           </p>
         </div>
 
