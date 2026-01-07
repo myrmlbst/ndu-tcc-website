@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa6";
 
 export function Contact() {
   const title = `Contact`;
-  const subtitle = `Let’s build something together. Reach out to out team!`;
+  const subtitle = `Let’s build something together. Reach out to our team!`;
 
   return (
     <section id="contact" className="relative w-full min-h-screen overflow-hidden flex items-center dark:text-white scroll-mt-24"> {/* to make bg black: ```bg-neutral-950``` */}
