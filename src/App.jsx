@@ -4,6 +4,7 @@ import { NavbarDemo } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { Hero } from "./components/Hero.jsx";
 import { AboutUs } from "./components/AboutUs.jsx";
+import { Contact } from "./components/Contact.jsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <AboutUs />
         <Timeline />
+        <Contact />
         <Footer />
       </div>
     </div>

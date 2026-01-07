@@ -23,7 +23,7 @@ export function NavbarDemo() {
     },
     {
       name: "Contact",
-      link: "#",
+      link: "#contact",
     },
   ];
 
