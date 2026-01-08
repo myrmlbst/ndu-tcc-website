@@ -23,7 +23,7 @@ export function Hero() {
           <div className="mx-auto max-w-3xl text-center">
             
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl dark:text-white">
-              NDU — The Computer Club
+              NDU - The Computing Club
             </h1>
             <p className="mt-4 text-base text-gray-600 md:text-lg dark:text-gray-300">
               Creating the things you wished existed...
