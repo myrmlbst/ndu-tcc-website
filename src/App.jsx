@@ -12,7 +12,7 @@ function App() {
     <div>
       <NavbarDemo />
       
-      <div className="[&>#timeline]:scroll-mt-0 [&>#contact]:scroll-mt-0">
+      <div className="[&>#aboutus]:scroll-mt-0 [&>#timeline]:scroll-mt-0 [&>#contact]:scroll-mt-0">
         <Hero />
         <AboutUs />
         <Timeline />

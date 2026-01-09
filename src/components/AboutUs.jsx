@@ -11,7 +11,7 @@ export function AboutUs() {
   ];
 
   return (
-    <section id="aboutus" className="relative w-full min-h-screen overflow-hidden flex items-center dark:text-white">
+    <section id="aboutus" className="relative w-full min-h-screen overflow-hidden flex items-center dark:text-white scroll-mt-24">
       {/* Background elements - matching Hero component */}
       <div className="pointer-events-none absolute inset-0 -z-30 hidden dark:block bg-gradient-to-b from-neutral-900 via-neutral-950 to-neutral-950" />
       <div className="pointer-events-none absolute inset-0 -z-20">
@@ -28,7 +28,7 @@ export function AboutUs() {
             <TextGenerateEffect words={title} />
           </h1>
           <p className="text-lg text-gray-600 md:text-xl dark:text-gray-300">
-            <TextGenerateEffect words={subtitle} />
+            <TextGenerateEffect words={subtitle} className="" />
           </p>
         </div>
 
